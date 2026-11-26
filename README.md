@@ -1,5 +1,14 @@
 # ⚔️《冥界无尽录》双端独立发布源码（🔥 地狱 3× 难度版）
 
+在线试玩（GitHub Pages，发布后可能需要一两分钟生效）：
+
+- 入口：https://0xmulight.github.io/hades-roguelike-release/
+- 电脑版：https://0xmulight.github.io/hades-roguelike-release/pc/
+- 手机版：https://0xmulight.github.io/hades-roguelike-release/mobile/
+
+仓库：https://github.com/0xMulight/hades-roguelike-release
+
+
 本项目已彻底拆分为两个完全独立、零依赖纠缠的前端工程，并统一实装 **🔥 地狱 3× 难度**：
 
 ```text
