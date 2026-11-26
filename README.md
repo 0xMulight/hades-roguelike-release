@@ -8,6 +8,21 @@
 
 仓库：https://github.com/0xMulight/hades-roguelike-release
 
+## 截图
+
+截自试玩录像：[https://x.com/Mulight/status/2125811864919826438](https://x.com/Mulight/status/2125811864919826438)
+
+![备战大厅](screenshots/01-hub.png)
+
+![武器神态分支](screenshots/02-weapon-form.png)
+
+![战斗连斩](screenshots/03-combat-combo.png)
+
+![夜之圣镜](screenshots/04-mirror.png)
+
+![众神赐福](screenshots/05-blessing.png)
+
+![极北永冬冰狱](screenshots/06-frost-combat.png)
 
 本项目已彻底拆分为两个完全独立、零依赖纠缠的前端工程，并统一实装 **🔥 地狱 3× 难度**：
 

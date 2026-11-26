@@ -21,6 +21,37 @@
       text-decoration: none; background: #1a1210;
     }
     a:hover { background: #2a1b16; }
+    .shots {
+      margin: 36px auto 0;
+      max-width: 980px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      text-align: left;
+    }
+    .shots figure { margin: 0; }
+    .shots a {
+      display: block;
+      min-width: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+    }
+    .shots a:hover { background: transparent; }
+    .shots img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #3a2a20;
+      display: block;
+      background: #140f0d;
+    }
+    .shots figcaption {
+      margin-top: 6px;
+      font-size: .85rem;
+      color: #c4b29a;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -30,6 +61,33 @@
     <div class="links">
       <a href="pc/">电脑版</a>
       <a href="mobile/">手机版</a>
+    </div>
+
+    <div class="shots">
+      <figure>
+        <a href="screenshots/01-hub.png"><img src="screenshots/01-hub.png" alt="备战大厅" /></a>
+        <figcaption>备战大厅</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/02-weapon-form.png"><img src="screenshots/02-weapon-form.png" alt="武器神态分支" /></a>
+        <figcaption>武器神态分支</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/03-combat-combo.png"><img src="screenshots/03-combat-combo.png" alt="战斗连斩" /></a>
+        <figcaption>战斗连斩</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/04-mirror.png"><img src="screenshots/04-mirror.png" alt="夜之圣镜" /></a>
+        <figcaption>夜之圣镜</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/05-blessing.png"><img src="screenshots/05-blessing.png" alt="众神赐福" /></a>
+        <figcaption>众神赐福</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/06-frost-combat.png"><img src="screenshots/06-frost-combat.png" alt="极北永冬冰狱" /></a>
+        <figcaption>极北永冬冰狱</figcaption>
+      </figure>
     </div>
   </main>
 </body>
