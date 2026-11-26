@@ -6,7 +6,7 @@ export class BootScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.setPath('/assets/');
+    this.load.setPath(`${import.meta.env.BASE_URL}assets/`);
 
     // Legacy item / prop / pickup sprites
     this.load.image('wpn_sword', 'items/weapon/weapon_red_gem_sword.png');

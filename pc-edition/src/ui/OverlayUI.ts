@@ -118,7 +118,7 @@ export class OverlayUI {
       <div class="hud-top-left">
         <div class="hp-panel">
           <div class="hero-crest">
-            <img src="/assets/hd/hero_portrait.png" class="hero-portrait-img" alt="冥界王子" />
+            <img src="${import.meta.env.BASE_URL}assets/hd/hero_portrait.png" class="hero-portrait-img" alt="冥界王子" />
           </div>
           <div class="hp-bars-col">
             <div class="hp-header">
