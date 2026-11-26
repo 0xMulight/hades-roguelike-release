@@ -1,0 +1,15 @@
+export const DIFFICULTY = {
+  label: '🔥 地狱 3×',
+  hpMult: 3.0,
+  damageMult: 3.0,
+  armorRatio: 0.45,
+  postureMult: 1.65,
+  moveSpeedMult: 1.25,
+  aiCooldownMult: 0.68,
+  projSpeedMult: 1.32,
+  bossP1Bolts: 18,
+  bossP2Bolts: 24,
+  bossChargeBolts: 6,
+  waveMaxCount: 14,
+  darknessRewardMult: 2.0,
+} as const;
